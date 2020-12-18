@@ -9,5 +9,5 @@ function submit(data) {
     body: JSON.stringify([[data.name, data.email, data.message]]),
   }).then((r) => r.json());
 }
-
+// eslint-disable-next-line
 export default { submit };

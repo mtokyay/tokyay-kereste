@@ -8,7 +8,9 @@ import { useAuth } from "./../util/auth.js";
 import { useRouter } from "./../util/router.js";
 
 function NavbarCustom(props) {
+  // eslint-disable-next-line
   const auth = useAuth();
+  // eslint-disable-next-line
   const router = useRouter();
 
   return (
