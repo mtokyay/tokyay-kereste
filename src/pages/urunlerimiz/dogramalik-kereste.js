@@ -34,16 +34,16 @@ function UrunlerimizDogramalikKerestePage(props) {
       <CarouselSection
         items={[
           {
-            image: "http://source.unsplash.com/7v_lSDRaOO0/1200x600",
-            caption: "Caption for the first image",
+            image: "https://tokyaykereste.s3.eu-central-1.amazonaws.com/kereste/ithal-yerli-dogramalik-kereste/cam-ithal-1-sinif-10x15-dogramalik-kereste-tokyay-kereste.png.png",
+            caption: "İthal Çam 1. sınıf 10x15 (10*15) Doğramalık Kereste",
           },
           {
-            image: "http://source.unsplash.com/PvCO2IXlXBs/1200x600",
-            caption: "Caption for the second image",
+            image: "https://tokyaykereste.s3.eu-central-1.amazonaws.com/kereste/ithal-yerli-dogramalik-kereste/ithal-1-sinif-5x18-dogramalik-kereste-tokyay-kereste.png.png",
+            caption: "İthal Çam 1. sınıf 5x18 (5*18) Doğramalık Kereste",
           },
           {
-            image: "http://source.unsplash.com/KgjcndVr7tU/1200x600",
-            caption: "Caption for the third image",
+            image: "https://tokyaykereste.s3.eu-central-1.amazonaws.com/kereste/ithal-yerli-dogramalik-kereste/ithal-cam-10x10-1-sinif-dogramalik-kereste-tokyay-kereste.png.png",
+            caption: "İthal Çam 1. sınıf 10x10 (10*10) Doğramalık Kereste",
           },
         ]}
       />

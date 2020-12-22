@@ -1,9 +1,9 @@
 import React from "react";
-import ContentCardsSection from "./../components/ContentCardsSection";
+import BlogCardsSection from "./../components/BlogCardsSection";
 
 function BlogPage(props) {
   return (
-    <ContentCardsSection
+    <BlogCardsSection
       bg="white"
       textColor="dark"
       size="md"

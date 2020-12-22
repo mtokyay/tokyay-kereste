@@ -5,6 +5,8 @@ import IndexPage from "./index";
 import BizKimizPage from "./biz-kimiz";
 import YasalBilgilerPage from "./yasal-bilgiler";
 import UrunlerimizPage from "./urunlerimiz";
+import AgacTomrukCesitleriPage from "./agac-tomruk-kereste-cesitleri";
+import KestaneKeresteTomrukPage from "./agac-kereste-tomruk-turleri/kestane-kereste-tomruk";
 import SorularPage from "./sorular";
 import IletisimPage from "./iletisim";
 import BlogPage from "./blog";
@@ -45,6 +47,10 @@ function App(props) {
             <Route exact path="/sorular" component={SorularPage} />
 
             <Route exact path="/iletisim" component={IletisimPage} />
+
+            <Route exact path="/agac-tomruk-kereste-cesitleri" component={AgacTomrukCesitleriPage} />
+            <Route exact path="/agac-kereste-tomruk-turleri/kestane-kereste-tomruk" component={KestaneKeresteTomrukPage} />
+
 
             <Route exact path="/blog" component={BlogPage} />
 

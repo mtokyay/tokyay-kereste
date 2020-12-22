@@ -53,8 +53,8 @@ function NavbarCustom(props) {
               </LinkContainer>
             </NavDropdown>
 
-            <LinkContainer to="/hakkimizda">
-              <Nav.Link active={false}>Hakkımızda</Nav.Link>
+            <LinkContainer to="/agac-tomruk-kereste-cesitleri">
+              <Nav.Link active={false}>Tomruk Kereste Çeşitleri</Nav.Link>
             </LinkContainer>
 
             <LinkContainer to="/blog">

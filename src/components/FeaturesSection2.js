@@ -7,23 +7,23 @@ import Col from "react-bootstrap/Col";
 function FeaturesSection2(props) {
   const items = [
     {
-      title: "Have fun!",
+      title: "Genel Özellikleri",
       subtitle:
-        "We've gamified everything so you feel like you're having fun when you're actually doing free work for us. Win win!",
+        "Kestane Kereste en fazla göze hitap eden kereste çeşididir. Sağlam ve doğal yapısı sayesinde mobilya sektöründe öncelikli olarak tercih edilmektedir. Rengi açık-koyu kahverengi ve grimsi sarıdır.",
       iconClass: "fas fa-gem",
       iconColor: "warning",
     },
     {
-      title: "Charge up",
+      title: "Ayrıntılar",
       subtitle:
-        "If you want to keep having fun remember to stay charged! And by that we mean you need to buy our ERC-20 CHARGE token to keep playing.",
+        " Mukavemeti yüksektir ve kolay işlenebilir. Uzun iplikli olduğu için kolayca bükülmektedir, esnektir. Neme dayanıklıdır. Çivi ve tutkalla iyi bağlantı kurar. Kolay verniklenir ve boyanır. ",
       iconClass: "fas fa-charging-station",
       iconColor: "danger",
     },
     {
-      title: "Pick your flavor",
+      title: "Kullanım Alanları",
       subtitle:
-        "Dark mode is so last year. We have a light mode and turquoise mode. Either way, your eyes are going to hurt. Don't forget to stay charged!",
+        "Kullanım alanları Suya dayanıklı yapısı sayesinde deniz araçlarında, köprü ayaklarında ve iskele yapımında kullanılmaktadır. Aynı zamanda doğramacılık, iç dekorasyon, ahşap merdiven yapımı, ahşap ev yapımı, parke, deck, bahçe masası, pergole ve çardak yapımı gibi pek çok kullanım alanına sahiptir. ",
       iconClass: "fas fa-adjust",
       iconColor: "primary",
     },
